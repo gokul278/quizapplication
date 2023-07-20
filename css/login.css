@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-color: #46496a;
+    background-repeat: no-repeat;
+    }
+
+.login{
+    height:100vh;
+}  
+
+.loginpanel{
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.form__input {
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding: 15px; */
+	color: black;
+	background: transparent;
+    border: 3px solid #000000;
+    border-radius: 100px;
+	width: 100%;
+	display: block;
+	transition: all 0.3s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form__input:focus{
+    box-shadow: 0 0 0 0.25rem #e45f2bb7;
+}
+
+.form__input::placeholder{
+    color:black
+}
+
+
+.form-check-input{
+    vertical-align: baseline;
+}
+.form-check-input:checked {
+    background-color: #E45F2B;
+    border-color: #f19874;
+}
+
+.form-check-input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(246, 104, 69, 0.4);
+}
+
+
+.form-check-label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.errormessage{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 8px;
+    color: white;
+    background-color: #E45F2B;
+    border: 3px solid #E45F2B;
+    border-radius: 5px;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #e45f2bb7;
+}
+
